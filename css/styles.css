@@ -1,0 +1,24 @@
+.navbar {
+    background-color: coral;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar ul li a:hover {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
