@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.brand{
+    width: 18rem;
+}
+
+header{
+    background-color: #222222;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   padding: 0.2rem 0;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    background-color: #1e1e1e;
+    padding: 1.3rem 4rem;
+}
