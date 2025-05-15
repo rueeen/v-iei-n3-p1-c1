@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Front End 2022</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h3>Agregar hora medica</h3>
+    <!-- NOMBRE DE PACIENTE -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="label_name">Nombre de Paciente</span>
+        </div>
+        <input type="text" class="form-control form" id="name" placeholder="Nombre" aria-label="Nombre"
+            aria-describedby="name">
+    </div>
+    <div class="alert alert-secondary error" id="error_name" role="alert">
+        <p>Debe ingresar el Nombre</p>
+    </div>
+
+    <!-- APELLIDO PATERNO -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="label_father_name">Apellido Paterno</span>
+        </div>
+        <input type="text" class="form-control form" id="father_name" placeholder="Apellido Paterno"
+            aria-label="Apellido Paterno" aria-describedby="last_name">
+    </div>
+    <div class="alert alert-secondary error" id="error_father_name" role="alert">
+        <p>Debe ingresar el Apellido</p>
+    </div>
+
+    <!-- APELLIDO MATERNO -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="label_mother_name">Apellido Materno</span>
+        </div>
+        <input type="text" class="form-control form" id="mother_name" placeholder="Apellido Materno"
+            aria-label="Apellido Materno" aria-describedby="last_mother_name">
+    </div>
+    <div class="alert alert-secondary error" id="error_mother_name" role="alert">
+        <p>Debe ingresar el Apellido Materno</p>
+    </div>
+
+    <!-- EDAD -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="a<label_age">Edad</span>
+        </div>
+        <input type="number" class="form-control form" id="age" placeholder="Edad" aria-label="Edad"
+            aria-describedby="edad">
+    </div>
+    <div class="alert alert-secondary error" id="error_age" role="alert">
+        <p>Debe ingresar la Edad</p>
+    </div>
+    <!-- GENERO -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Genero</label>
+        </div>
+        <select class="custom-select form" id="gender">
+            <option selected value="0">Seleccione Genero</option>
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+        </select>
+    </div>
+    <div class="alert alert-secondary error" id="error_gender" role="alert">
+        <p>Debe seleccionar el Genero</p>
+    </div>
+
+    <!-- SELECCIONE DOCTOR -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect02">Doctor</label>
+        </div>
+        <select class="custom-select form" id="doctor">
+            <option selected value="0">Seleccione Doctor</option>
+            <option value="1">Juanito Perez</option>
+            <option value="2">Pepito Paga Doble</option>
+        </select>
+    </div>
+    <div class="alert alert-secondary error" id="error_doctor" role="alert">
+        <p>Debe seleccionar el Doctor</p>
+    </div>
+    <div class="alert alert-danger error" id="error_patient" role="alert">
+        El doctor no puede atender mas pacientes
+    </div>
+    <!-- Boton guardar -->
+    <div class="input-group">
+        <button class="btn btn-lg btn-primary" id="btn_save">Guardar Hora</button>
+    </div>
+
+    <!-- Aqui desplegar registros -->
+    <section id="respuesta">
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

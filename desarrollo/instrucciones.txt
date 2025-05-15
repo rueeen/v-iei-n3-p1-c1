@@ -1,0 +1,15 @@
+Utilizando Javascript valide el formulario antes de guardar (20 pts)
+    * No permitir campos vacios (7 pts) 
+    * Seleccionar Genero y Doctor debe ser obligatorio (3 pts) 
+    * Si detecta algún error, este debe ser desplegado al usuario (3 pts) 
+    * Un doctor no puede tener más de dos pacientes cargados (7 pts) 
+
+Si el formulario es valido (20 pts)
+    * Utilizar un arreglo y objetos para manejar los registros (7 pts) 
+    * Los registros agregados deben ser desplegados en la etiqueta section (7pts)
+    * Mensaje de exito al usuario (3 pts) 
+    * Limpiar campos para permitir nuevo registro (3 pts) 
+
+Bonus ( No evaluado pero puede reemplazar algun item Fallido o no realizado)
+    * Las horas del doctor Juanito Perez se despliegan en verde
+      Las horas del doctor Pepito Paga Doble se despliegan en azul
